@@ -1,0 +1,14 @@
+<html>
+  <head></head>
+  <body>
+    {% if blogpost %}
+      Based on your blogpost, your predicted gender is {{ value }}.
+    {% else %}
+      Hello guest! 
+    {% endif %}
+    <form action="/" method="post">
+      Enter blog post: <input type="text" name="blogpost">
+      <input type="submit" name="submit" value="Submit">
+    </form>
+  </body>
+</html>
