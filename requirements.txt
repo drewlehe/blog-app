@@ -1,0 +1,8 @@
+flask
+xgboost
+gensim
+spacy
+symspellpy
+pandas
+scikit-learn
+joblib
